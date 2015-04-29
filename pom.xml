@@ -5,7 +5,7 @@
 	<groupId>com.mindtree.awsfinalpresentation.controller</groupId>
 	<artifactId>VehiclePresentation</artifactId>
 	<packaging>war</packaging>
-	<version>1.5.8</version>
+	<version>1.5.9</version>
 	<name>${project.artifactId}</name>
 	<properties>
 		<org.springframework.version>3.2.1.RELEASE</org.springframework.version>
@@ -247,7 +247,7 @@
 								<image>
 									<id>${project.artifactId}</id>
 									<dockerFile>${project.basedir}/src/main/docker/Dockerfile</dockerFile>
-									<keep>false</keep>
+									<keep>true</keep>
 									<artifacts>
 										<artifact>
 											<file>${project.basedir}/target/${project.artifactId}.war</file>
@@ -284,12 +284,6 @@
 						<id>push</id>
 						<goals>
 							<goal>push-images</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>stop</id>
-						<goals>
-							<goal>stop-containers</goal>
 						</goals>
 					</execution>
 				</executions>
