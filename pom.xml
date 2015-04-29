@@ -273,7 +273,7 @@
 								<image>
 									<id>${project.artifactId}</id>
 									<tags>
-										<tag>jayaram/mt-mvn-vr-presentation:latest</tag>
+										<tag>jayaram/mt-mvn-vr-presentation:latest&force=1</tag>
 									</tags>
 									<push>true</push>
 								</image>
