@@ -1,6 +1,6 @@
 FROM nijisha/mt-vr-env
 
-MAINTAINER M1019330
+MAINTAINER M1018339
 
 # Location of presentation URL
 ADD VehiclePresentation.war /webapps/ 
