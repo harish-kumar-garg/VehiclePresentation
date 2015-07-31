@@ -5,7 +5,6 @@
 	<groupId>com.mindtree.awsfinalpresentation.controller</groupId>
 	<artifactId>VehiclePresentation</artifactId>
 	<packaging>war</packaging>
-	<version>1.9.9</version>
 	<name>${project.artifactId}</name>
 	<properties>
 		<org.springframework.version>3.2.1.RELEASE</org.springframework.version>
@@ -308,4 +307,5 @@
 		</plugins>
 		<finalName>${project.artifactId}</finalName>
 	</build>
+	<version>2.0.0</version>
 </project>
