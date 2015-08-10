@@ -253,7 +253,7 @@
 							</images>
 						</configuration>
 					</execution>
-					<execution>
+					<!-- <execution>
 						<id>tag</id>
 						<goals>
 							<goal>tag-images</goal>
@@ -269,7 +269,7 @@
 								</image>
 							</images>
 						</configuration>
-					</execution>
+					</execution> -->
 					<execution>
 						<id>push</id>
 						<goals>
@@ -307,5 +307,5 @@
 		</plugins>
 		<finalName>${project.artifactId}</finalName>
 	</build>
-	<version>3.0.4</version>
+	<version>3.0.5</version>
 </project>
