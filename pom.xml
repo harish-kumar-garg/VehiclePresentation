@@ -304,7 +304,8 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>5.0.0</version>
 				<executions>
-				<!-- Commented by M1030936 Change reason : "  Docker image created by Jenkins plugin " : Start -->
+				<!-- Commented by M1030936
+				Change reason : "Docker image created by Jenkins plugin " : Start -->
 					<!-- <execution>
 						<id>build</id>
 						<goals>
